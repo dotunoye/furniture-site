@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact OBSIDIAN - Book a viewing, schedule a consultation, or get in touch with our team.">
+  <meta name="keywords" content="contact OBSIDIAN, book viewing, schedule consultation, customer service">
+  <meta name="author" content="OBSIDIAN Furniture">
+  <title>Contact | OBSIDIAN Premium Furniture</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============================================
+       NAVBAR (Floating Glass)
+       ============================================ -->
+  <nav class="navbar">
+    <a href="index.html" class="navbar-logo">OBSIDIAN</a>
+    
+    <div class="navbar-center">
+      <a href="index.html">Home</a>
+      <a href="showroom.html">Showroom</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <a href="tel:+2341234567890" class="navbar-cta">Call Us</a>
+    <button class="menu-toggle" id="menuToggle">☰</button>
+    
+    <!-- Mobile Dropdown Menu -->
+    <div class="mobile-menu-dropdown" id="mobileMenuDropdown">
+      <a href="index.html" class="dropdown-link">Home</a>
+      <a href="showroom.html" class="dropdown-link">Showroom</a>
+      <a href="about.html" class="dropdown-link">About</a>
+      <a href="contact.html" class="dropdown-link">Contact</a>
+    </div>
+  </nav>
+
+  <!-- ============================================
+       HERO SECTION - CONTACT
+       ============================================ -->
+  <section class="hero" style="height: 50vh;">
+    <div class="hero-content">
+      <h1>Get In Touch</h1>
+      <p class="hero-subtext">
+        Connect with our team to book a viewing or schedule a consultation
+      </p>
+    </div>
+  </section>
+
+  <!-- ============================================
+       CONTACT FORM SECTION
+       ============================================ -->
+  <section class="contact-section">
+    <div class="contact-container">
+      <div class="contact-header">
+        <h2>Send Us A Message</h2>
+        <p style="font-size: 1.05rem;">We'll respond within 24 hours</p>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required placeholder="Your full name">
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required placeholder="your@email.com">
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required placeholder="+234 (0) 123 4567">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="subject" style="display: none;">Subject</label>
+          <input type="hidden" id="subject" name="subject" value="Inquiry from OBSIDIAN Website">
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required placeholder="Tell us about your furniture needs or schedule a viewing..."></textarea>
+        </div>
+
+        <button type="submit" class="btn" style="align-self: flex-start;">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============================================
+       CONTACT INFO SECTION (Glass Cards)
+       ============================================ -->
+  <section style="padding: 120px 48px; background-color: #FAFAFA;">
+    <div class="container">
+      <h2 style="text-align: center; margin-bottom: 80px;">Connect With Us</h2>
+
+      <div class="contact-cards-grid">
+        <!-- Card 1: Showroom Address -->
+        <div class="contact-glass-card">
+          <div class="card-icon">📍</div>
+          <h3 class="card-title">Visit Our Showroom</h3>
+          <p class="card-text">
+            OBSIDIAN Design Studio<br>
+            123 Furniture District<br>
+            Lagos, Nigeria 10001
+          </p>
+          <a href="https://maps.google.com/?q=Lagos+Nigeria" target="_blank" rel="noopener" class="card-link">Get Directions →</a>
+        </div>
+
+        <!-- Card 2: WhatsApp & Phone -->
+        <div class="contact-glass-card">
+          <div class="card-icon">💬</div>
+          <h3 class="card-title">Quick Contact</h3>
+          <p class="card-text">
+            <strong>WhatsApp:</strong><br>
+            <a href="https://wa.me/2341234567890" target="_blank" rel="noopener" class="contact-link">Message Us</a><br>
+            <br>
+            <strong>Phone:</strong><br>
+            <a href="tel:+2341234567890" class="contact-link">+234 (0) 123 456 7890</a>
+          </p>
+          <p class="card-footer">Response within 1 hour</p>
+        </div>
+
+        <!-- Card 3: Email & Support -->
+        <div class="contact-glass-card">
+          <div class="card-icon">✉️</div>
+          <h3 class="card-title">Email Support</h3>
+          <p class="card-text">
+            <strong>General:</strong><br>
+            <a href="mailto:hello@obsidianfurniture.com" class="contact-link">hello@obsidianfurniture.com</a><br>
+            <br>
+            <strong>VIP Consultations:</strong><br>
+            <a href="mailto:vip@obsidianfurniture.com" class="contact-link">vip@obsidianfurniture.com</a>
+          </p>
+          <p class="card-footer">Response within 24 hours</p>
+        </div>
+      </div>
+
+      <!-- Google Maps Embed -->
+      <div class="map-container" style="margin-top: 80px;">
+        <h3 style="text-align: center; margin-bottom: 40px;">Find Us on the Map</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.9520258432503!2d3.3792057!3d6.5244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b0d5e5e5e5d%3A0x5e5e5e5e5e5e5e5e!2sLagos%2C%20Nigeria!5e0!3m2!1sen!2sng!4v1234567890" 
+          style="width: 100%; height: 450px; border-radius: 12px; border: none; filter: grayscale(30%);" 
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       FAQ SECTION
+       ============================================ -->
+  <section style="padding: 120px 48px; background-color: #FAFAFA;">
+    <div class="container">
+      <h2 style="text-align: center; margin-bottom: 80px;">Frequently Asked Questions</h2>
+
+      <div style="max-width: 900px; margin: 0 auto;">
+        <details style="margin-bottom: 30px; padding: 20px; background-color: #F0F0F0; border: 1px solid #E8E8E8; cursor: pointer;">
+          <summary style="font-weight: 600; color: #111111; outline: none;">
+            Do you offer delivery services?
+          </summary>
+          <p style="margin-top: 15px; color: #555555; line-height: 1.7;">
+            Yes, we offer white-glove delivery services across Nigeria. Delivery is complimentary for orders over ₦2,000,000. 
+            Our team will handle assembly and placement with care.
+          </p>
+        </details>
+
+        <details style="margin-bottom: 30px; padding: 20px; background-color: #F0F0F0; border: 1px solid #E8E8E8; cursor: pointer;">
+          <summary style="font-weight: 600; color: #111111; outline: none;">
+            What is your warranty policy?
+          </summary>
+          <p style="margin-top: 15px; color: #555555; line-height: 1.7;">
+            All pieces come with a 5-year structural guarantee. We also offer lifetime replacement of components 
+            and complimentary maintenance advice. Custom pieces have extended warranties.
+          </p>
+        </details>
+
+        <details style="margin-bottom: 30px; padding: 20px; background-color: #F0F0F0; border: 1px solid #E8E8E8; cursor: pointer;">
+          <summary style="font-weight: 600; color: #111111; outline: none;">
+            Can you customize furniture?
+          </summary>
+          <p style="margin-top: 15px; color: #555555; line-height: 1.7;">
+            Absolutely. We offer full customization on colors, materials, dimensions, and finishes. 
+            Custom pieces typically take 8-12 weeks. We'll schedule a consultation with our design team.
+          </p>
+        </details>
+
+        <details style="margin-bottom: 30px; padding: 20px; background-color: #F0F0F0; border: 1px solid #E8E8E8; cursor: pointer;">
+          <summary style="font-weight: 600; color: #111111; outline: none;">
+            Do you accept returns?
+          </summary>
+          <p style="margin-top: 15px; color: #555555; line-height: 1.7;">
+            We have a 30-day return policy for most items. Custom and special orders are non-returnable. 
+            Please contact our customer service team for specifics on your purchase.
+          </p>
+        </details>
+
+        <details style="margin-bottom: 30px; padding: 20px; background-color: #F0F0F0; border: 1px solid #E8E8E8; cursor: pointer;">
+          <summary style="font-weight: 600; color: #111111; outline: none;">
+            How do I schedule a design consultation?
+          </summary>
+          <p style="margin-top: 15px; color: #555555; line-height: 1.7;">
+            Fill out the form above or call +234 (0) 123 456 7890. Our design consultants offer free in-home 
+            consultations to assess your space and recommend pieces. VIP services include 3D renderings.
+          </p>
+        </details>
+
+        <details style="margin-bottom: 30px; padding: 20px; background-color: #F0F0F0; border: 1px solid #E8E8E8; cursor: pointer;">
+          <summary style="font-weight: 600; color: #111111; outline: none;">
+            What payment methods do you accept?
+          </summary>
+          <p style="margin-top: 15px; color: #555555; line-height: 1.7;">
+            We accept bank transfers, credit/debit cards, and offer installment plans up to 12 months for qualifying purchases. 
+            Corporate and bulk orders may have custom payment terms.
+          </p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-content">
+        <!-- Brand Section -->
+        <div class="footer-section">
+          <h4>OBSIDIAN</h4>
+          <p style="margin: 0; opacity: 0.8;">Premium luxury furniture for the modern sanctuary.</p>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="footer-section">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="showroom.html">Showroom</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Collections -->
+        <div class="footer-section">
+          <h4>Collections</h4>
+          <ul>
+            <li><a href="showroom.html">Living</a></li>
+            <li><a href="showroom.html">Dining</a></li>
+            <li><a href="showroom.html">Bedroom</a></li>
+            <li><a href="showroom.html">Office</a></li>
+          </ul>
+        </div>
+
+        <!-- Customer Service -->
+        <div class="footer-section">
+          <h4>Customer Service</h4>
+          <ul>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Shipping Info</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p>&copy; 2026 OBSIDIAN Furniture. All rights reserved.</p>
+        <div class="footer-socials">
+          <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">𝕴</a>
+          <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/inventory.js"></script>
+  
+  <script>
+    // Mobile Dropdown Menu Toggle
+    const menuToggle = document.getElementById('menuToggle');
+    const mobileMenuDropdown = document.getElementById('mobileMenuDropdown');
+    const dropdownLinks = document.querySelectorAll('.mobile-menu-dropdown .dropdown-link');
+
+    // Toggle dropdown
+    menuToggle.addEventListener('click', (e) => {
+      e.stopPropagation();
+      mobileMenuDropdown.classList.toggle('active');
+    });
+
+    // Close dropdown when clicking outside
+    document.addEventListener('click', (e) => {
+      const isClickInsideDropdown = mobileMenuDropdown.contains(e.target);
+      const isClickOnToggle = menuToggle.contains(e.target);
+      
+      if (!isClickInsideDropdown && !isClickOnToggle && mobileMenuDropdown.classList.contains('active')) {
+        mobileMenuDropdown.classList.remove('active');
+      }
+    });
+
+    // Close dropdown when clicking a link
+    dropdownLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenuDropdown.classList.remove('active');
+      });
+    });
+
+    // Set active link based on current page URL
+    function setActiveLink() {
+      const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+      
+      dropdownLinks.forEach(link => {
+        const href = link.getAttribute('href').split('/').pop() || 'index.html';
+        if (href === currentPage) {
+          link.classList.add('active');
+        } else {
+          link.classList.remove('active');
+        }
+      });
+    }
+    
+    // Call on page load
+    setActiveLink();
+  </script>
+</body>
+</html>
